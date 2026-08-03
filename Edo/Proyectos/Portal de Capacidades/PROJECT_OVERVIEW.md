@@ -26,7 +26,7 @@ La experiencia debe unir cuatro vistas del mismo sistema:
 - El vault Edo existe en Markdown y usa Git como histórico.
 - El repositorio remoto observado tiene una única rama `main`; no hay versionado por máquina.
 - Drive contiene dos árboles `EduVaultMacCoders`, uno bajo `Mi Mac` y otro bajo `Mi MacBook Air`.
-- El equipo local verificado es un MacBook Air y se registra como `Mac Air Edu`.
+- El equipo local verificado es el MacBook Air de Coderslab y se registra como `Mac Coders`.
 - `Asus Rog` no fue encontrado de forma verificable en Drive ni en el historial Git.
 - El documento fuente describe un tab `Schemas`, un workbench de tres paneles y un MVP read-only.
 - El repositorio, rutas, schemas y Design System reales del Portal de Capacidades no están disponibles en este vault.

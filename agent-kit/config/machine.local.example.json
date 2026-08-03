@@ -1,6 +1,6 @@
 {
-  "machineId": "mac-air-edu",
-  "displayName": "Mac Air Edu",
+  "machineId": "mac-coders",
+  "displayName": "Mac Coders",
   "vaultRoot": "REPLACE_WITH_LOCAL_PATH",
   "driveRoot": "REPLACE_WITH_LOCAL_DRIVE_PATH"
 }

@@ -86,6 +86,6 @@ actualizado: 2026-08-03
 
 ## Happy path seleccionado
 
-`Inicio seguro → Mac Air Edu → Portal de Capacidades → Capacidad → Schemas → seleccionar artefacto → revisar grafo → abrir en Obsidian`.
+`Inicio seguro → Mac Coders → Portal de Capacidades → Capacidad → Schemas → seleccionar artefacto → revisar grafo → abrir en Obsidian`.
 
 Este recorrido determina el orden de prototipado y las pruebas del MVP.

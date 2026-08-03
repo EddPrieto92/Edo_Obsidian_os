@@ -27,7 +27,7 @@ fuentes:
 - Plantillas de tarea, handoff, ADR y fuente.
 - Exportación ZIP con allowlist y verificación de secretos.
 - Handoff Codex → Claude preparado y marcado como `listo`.
-- Equipo local identificado como `Mac Air Edu`.
+- Equipo local identificado como `Mac Coders` (MacBook Air de Coderslab).
 - Dos árboles de Drive verificados: `Mi Mac` y `Mi MacBook Air`.
 - Panel lógico `Edu → Equipo → Proyecto` agregado en `Machines/`.
 - Arranque seguro agregado para macOS, Windows y tareas de VS Code.
@@ -35,7 +35,7 @@ fuentes:
 
 ## Pendientes de verificación
 
-- Onboarding local de `Mac Coders`.
+- Onboarding local de `Mac Air Edu`.
 - Onboarding y carpeta de Drive de `Asus Rog`.
 - Inventario de repositorios de proyectos adicionales.
 - Repositorio, Design System y schemas reales del Portal de Capacidades.

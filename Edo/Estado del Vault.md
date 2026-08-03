@@ -22,7 +22,7 @@ Registrar el estado general del vault Edo.
 
 ## Pendientes
 
-- Validar localmente Mac Coders y Asus Rog.
+- Validar localmente Mac Air Edu y Asus Rog.
 - Registrar los repositorios de proyectos adicionales.
 - Localizar el repositorio y schemas reales del Portal de Capacidades.
 - Definir la ubicación externa de worktrees Codex y Claude.

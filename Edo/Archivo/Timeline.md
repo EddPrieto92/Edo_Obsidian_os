@@ -10,7 +10,7 @@ Registrar hitos cronológicos derivados de fuentes reales.
 
 - 2026-07-07: inicialización de la estructura del vault Edo en Git.
 - 2026-08-03: inicio de la integración operativa Codex + Claude + Obsidian + VS Code + Git + Drive.
-- 2026-08-03: verificación de Mac Air Edu, dos árboles de Drive y una sola rama Git canónica.
+- 2026-08-03: verificación de Mac Coders (MacBook Air), dos árboles de Drive y una sola rama Git canónica.
 - 2026-08-03: planificación del MVP read-only del Portal de Capacidades.
 
 ## Pendientes de verificar

@@ -9,16 +9,16 @@ machines:
   mac-coders:
     display_name: Mac Coders
     platform: macos
-    verification: drive-only
-    drive_tree: Mi Mac/EduVaultMacCoders/Edo_Obsidian_os-1
+    verification: local-and-drive
+    drive_tree: Mi MacBook Air/EduVaultMacCoders/Edo_Obsidian_os-1
     projects:
       - edo-obsidian-os
       - portal-capacidades
   mac-air-edu:
     display_name: Mac Air Edu
     platform: macos
-    verification: local-and-drive
-    drive_tree: Mi MacBook Air/EduVaultMacCoders/Edo_Obsidian_os-1
+    verification: drive-only
+    drive_tree: Mi Mac/EduVaultMacCoders/Edo_Obsidian_os-1
     projects:
       - edo-obsidian-os
       - portal-capacidades

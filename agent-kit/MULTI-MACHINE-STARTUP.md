@@ -61,6 +61,6 @@ El archivo no se publica en Git. Las rutas absolutas y los identificadores priva
 
 | Equipo | Evidencia | Estado |
 |---|---|---|
-| Mac Air Edu | equipo local + raíz Drive | verificado |
-| Mac Coders | raíz Drive | pendiente de validación local |
+| Mac Coders | equipo local MacBook Air + raíz Drive | verificado |
+| Mac Air Edu | raíz Drive | pendiente de validación local |
 | Asus Rog | intención del usuario | pendiente de onboarding |

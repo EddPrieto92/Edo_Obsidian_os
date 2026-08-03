@@ -1,9 +1,9 @@
 # Mac Air Edu
 
-- Estado: equipo local y árbol de Drive verificados el 2026-08-03.
-- Árbol lógico observado: `Mi MacBook Air/EduVaultMacCoders/Edo_Obsidian_os-1`.
-- Identidad local: `.edo-machine` = `mac-air-edu`.
+- Estado: verificado en Drive; sesión local no verificada.
+- Árbol lógico observado: `Mi Mac/EduVaultMacCoders/Edo_Obsidian_os-1`.
 - Rama esperada: `main` del repositorio canónico.
+- Próximo paso: validar el equipo físico y crear `.edo-machine` con `mac-air-edu`.
 
 ## Proyectos
 

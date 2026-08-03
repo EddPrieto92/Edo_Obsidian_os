@@ -1,9 +1,10 @@
 # Mac Coders
 
-- Estado: verificado en Drive; sesión local no verificada.
-- Árbol lógico observado: `Mi Mac/EduVaultMacCoders/Edo_Obsidian_os-1`.
+- Estado: equipo local y árbol de Drive verificados el 2026-08-03.
+- Equipo físico observado: MacBook Air de Coderslab.
+- Árbol lógico observado: `Mi MacBook Air/EduVaultMacCoders/Edo_Obsidian_os-1`.
+- Identidad local: `.edo-machine` = `mac-coders`.
 - Rama esperada: `main` del repositorio canónico.
-- Próximo paso: ejecutar el onboarding desde ese equipo y crear `.edo-machine` con `mac-coders`.
 
 ## Proyectos
 

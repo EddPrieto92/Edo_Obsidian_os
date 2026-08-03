@@ -20,7 +20,7 @@ fuentes:
 - Se acordó una memoria compartida con adaptadores separados por agente.
 - Se estableció Git como historia única y el uso de ramas o worktrees exclusivos.
 - Se inició la generación del kit de continuidad y su exportación ZIP.
-- Se verificaron dos árboles de Drive y el equipo local Mac Air Edu.
+- Se verificaron dos árboles de Drive y el equipo local Mac Coders (MacBook Air de Coderslab).
 - Se definió `main` como versión canónica y un arranque seguro para tres equipos.
 - Se planificó el Portal de Capacidades sin implementar aún su interfaz.
 

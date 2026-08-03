@@ -27,7 +27,7 @@ Listar proyectos activos confirmados por fuentes reales.
 
 - Validar, versionar y publicar el kit 0.2.0.
 - Realizar una transferencia piloto Codex → Claude.
-- Completar onboarding de Mac Coders y Asus Rog.
+- Completar onboarding de Mac Air Edu y Asus Rog.
 - Localizar el repositorio, schemas y Design System del Portal de Capacidades.
 
 ## Fuentes
