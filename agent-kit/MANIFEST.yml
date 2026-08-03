@@ -1,0 +1,44 @@
+name: dual-llm-continuity-kit
+version: 0.2.0
+generated_from: Edo_Obsidian_os-1
+generated_on: 2026-08-03
+purpose: continuidad portable entre Codex y Claude
+authority:
+  code_and_markdown_history: git
+  human_memory_interface: obsidian
+  external_sources_and_sync: google-drive
+  task_transfer: handoffs
+include:
+  - .gitignore
+  - AGENTS.md
+  - CLAUDE.md
+  - .claude/settings.json
+  - .codex/config.toml.example
+  - .codex/skills/dual-llm-continuity
+  - .claude/skills/dual-llm-continuity
+  - agent-kit
+  - workspaces
+  - .vscode/tasks.json
+  - Machines
+  - Edo/IA/Agentes
+  - Edo/Proyectos/Portal de Capacidades
+  - Edo/README.md
+  - Edo/MOC - Edu.md
+  - Edo/Estado del Vault.md
+  - Edo/Taxonomía.md
+  - Edo/Reglas - Push Pull Histórico.md
+  - Edo/Proyectos/Proyectos activos.md
+  - Edo/Archivo/Histórico de cambios.md
+  - Edo/Archivo/Timeline.md
+  - Edo/Archivo/Decisiones.md
+exclude:
+  - .git
+  - .env
+  - credentials
+  - private-keys
+  - caches
+  - dependencies
+  - agent-transcripts
+  - arbitrary-drive-files
+  - machine-local-configuration
+  - generated-portal-indexes

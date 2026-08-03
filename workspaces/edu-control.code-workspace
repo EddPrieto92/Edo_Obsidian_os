@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "name": "Edu — Control",
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "portal-data/generated": true
+    },
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/node_modules/**": true
+    },
+    "markdown.validate.enabled": true,
+    "task.quickOpen.history": 10
+  },
+  "extensions": {
+    "recommendations": [
+      "yzhang.markdown-all-in-one"
+    ]
+  }
+}

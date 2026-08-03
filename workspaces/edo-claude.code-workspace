@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "name": "Edo Vault — Claude",
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "agent-kit/adapters/codex": true
+    },
+    "files.watcherExclude": {
+      "**/.git/objects/**": true
+    },
+    "markdown.validate.enabled": true
+  },
+  "extensions": {
+    "recommendations": [
+      "yzhang.markdown-all-in-one"
+    ]
+  }
+}

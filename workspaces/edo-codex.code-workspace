@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "name": "Edo Vault — Codex",
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      ".claude": true,
+      "agent-kit/adapters/claude": true
+    },
+    "files.watcherExclude": {
+      "**/.git/objects/**": true
+    },
+    "markdown.validate.enabled": true
+  },
+  "extensions": {
+    "recommendations": [
+      "yzhang.markdown-all-in-one"
+    ]
+  }
+}

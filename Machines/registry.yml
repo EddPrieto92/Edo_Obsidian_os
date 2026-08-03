@@ -1,0 +1,42 @@
+schema_version: 1
+updated_on: 2026-08-03
+authority:
+  repository: EddPrieto92/Edo_Obsidian_os
+  branch: main
+  update_policy: explicit-fast-forward-only
+  drive_role: replica-sources-and-attachments
+machines:
+  mac-coders:
+    display_name: Mac Coders
+    platform: macos
+    verification: drive-only
+    drive_tree: Mi Mac/EduVaultMacCoders/Edo_Obsidian_os-1
+    projects:
+      - edo-obsidian-os
+      - portal-capacidades
+  mac-air-edu:
+    display_name: Mac Air Edu
+    platform: macos
+    verification: local-and-drive
+    drive_tree: Mi MacBook Air/EduVaultMacCoders/Edo_Obsidian_os-1
+    projects:
+      - edo-obsidian-os
+      - portal-capacidades
+  asus-rog:
+    display_name: Asus Rog
+    platform: windows
+    verification: pending-onboarding
+    drive_tree: pending
+    projects:
+      - edo-obsidian-os
+      - portal-capacidades
+projects:
+  edo-obsidian-os:
+    display_name: Edo / Second Brain
+    repository: EddPrieto92/Edo_Obsidian_os
+    default_branch: main
+  portal-capacidades:
+    display_name: Portal de Capacidades
+    repository: pending-verification
+    default_branch: pending-verification
+    planning_path: Edo/Proyectos/Portal de Capacidades

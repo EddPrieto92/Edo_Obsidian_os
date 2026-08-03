@@ -1,0 +1,28 @@
+# Identidad y rutas propias de cada equipo
+.edo-machine
+agent-kit/config/machine.local.json
+agent-kit/config/machines.local.json
+
+# Credenciales y variables locales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Estado local de aplicaciones
+.DS_Store
+Thumbs.db
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Dependencias, cachés y entregables regenerables
+node_modules/
+.cache/
+dist/
+coverage/
+*.log
+
+# Índices locales del portal: se regeneran desde las fuentes
+portal-data/generated/

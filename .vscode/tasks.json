@@ -1,0 +1,70 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Edo: Inicio seguro",
+      "type": "shell",
+      "command": "bash agent-kit/scripts/edo-start.sh",
+      "windows": {
+        "command": "powershell -ExecutionPolicy Bypass -File agent-kit/scripts/edo-start.ps1"
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "label": "Edo: Estado local",
+      "type": "shell",
+      "command": "bash agent-kit/scripts/edo-start.sh status",
+      "windows": {
+        "command": "powershell -ExecutionPolicy Bypass -File agent-kit/scripts/edo-start.ps1 status"
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Edo: Comprobar versión remota",
+      "type": "shell",
+      "command": "bash agent-kit/scripts/edo-start.sh check",
+      "windows": {
+        "command": "powershell -ExecutionPolicy Bypass -File agent-kit/scripts/edo-start.ps1 check"
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Edo: Actualizar desde main",
+      "type": "shell",
+      "command": "bash agent-kit/scripts/edo-start.sh update",
+      "windows": {
+        "command": "powershell -ExecutionPolicy Bypass -File agent-kit/scripts/edo-start.ps1 update"
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Edo: Validar configuración",
+      "type": "shell",
+      "command": "bash agent-kit/scripts/validate-kit.sh .",
+      "windows": {
+        "command": "bash agent-kit/scripts/validate-kit.sh ."
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

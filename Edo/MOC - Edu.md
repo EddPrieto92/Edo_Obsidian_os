@@ -30,10 +30,28 @@ Mapa principal de navegación del vault Edo.
 
 ## Proyectos activos
 
+- [[Proyectos/Proyectos activos]]
+- [[Proyectos/Portal de Capacidades/README|Portal de Capacidades]]
+- [[IA/Agentes/02 - Registro de proyectos]]
+
 ## Decisiones recientes
+
+- [[IA/Agentes/Decisiones/ADR-0001 - Memoria compartida y entornos aislados]]
+- [[IA/Agentes/Decisiones/ADR-0002 - Main canónico y arranque multi-equipo]]
 
 ## Pendientes
 
+- [[Estado del Vault]]
+- [[IA/Agentes/01 - Estado compartido]]
+
 ## Timeline
 
+- [[Archivo/Timeline]]
+- [[IA/Agentes/Historial resumido]]
+
 ## Accesos rápidos
+
+- [[IA/Agentes/00 - Inicio rápido|Sistema Codex + Claude]]
+- [[Reglas - Push Pull Histórico]]
+- [[IA/Agentes/Handoffs/Índice de handoffs]]
+- [[../Machines/README|Edu — equipos y proyectos]]

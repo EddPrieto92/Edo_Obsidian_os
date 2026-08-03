@@ -1,0 +1,4 @@
+interface:
+  display_name: "Continuidad Codex + Claude"
+  short_description: "Coordina equipos, contexto y handoffs entre ambos LLM"
+  default_prompt: "Usa $dual-llm-continuity para verificar el equipo, recuperar el contexto mínimo y continuar o transferir esta tarea."

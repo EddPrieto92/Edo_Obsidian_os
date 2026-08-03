@@ -1,0 +1,5 @@
+# Copiar como `.codex/config.toml` solo después de revisarlo en el repositorio destino.
+# La selección de modelo y esfuerzo se hace por tarea según el router compartido.
+
+project_doc_max_bytes = 16384
+project_root_markers = [".git"]
