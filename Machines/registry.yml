@@ -25,8 +25,8 @@ machines:
   asus-rog:
     display_name: Asus Rog
     platform: windows
-    verification: pending-onboarding
-    drive_tree: pending
+    verification: local-and-drive
+    drive_tree: VERNO OS/edo_obsidian_os
     projects:
       - edo-obsidian-os
       - portal-capacidades

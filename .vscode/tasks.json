@@ -59,7 +59,7 @@
       "type": "shell",
       "command": "bash agent-kit/scripts/validate-kit.sh .",
       "windows": {
-        "command": "bash agent-kit/scripts/validate-kit.sh ."
+        "command": "powershell -ExecutionPolicy Bypass -File agent-kit/scripts/validate-kit.ps1 ."
       },
       "options": {
         "cwd": "${workspaceFolder}"

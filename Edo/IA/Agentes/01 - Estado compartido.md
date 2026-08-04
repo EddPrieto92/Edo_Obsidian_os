@@ -32,11 +32,13 @@ fuentes:
 - Panel lógico `Edu → Equipo → Proyecto` agregado en `Machines/`.
 - Arranque seguro agregado para macOS, Windows y tareas de VS Code.
 - Portal de Capacidades planificado como MVP read-only de tres columnas.
+- Equipo `Asus Rog` conectado y verificado (local + Drive) el 2026-08-03.
+- `validate-kit.ps1` corregido: si `rg` no está en el PATH nativo, omite el escaneo de secretos con un aviso en vez de fallar (paridad con `validate-kit.sh`).
 
 ## Pendientes de verificación
 
 - Onboarding local de `Mac Air Edu`.
-- Onboarding y carpeta de Drive de `Asus Rog`.
+- Instalar `ripgrep` en el PATH nativo de PowerShell en `Asus Rog` para que `validate-kit.ps1` incluya el escaneo de secretos (opcional: siempre se puede validar desde git-bash).
 - Inventario de repositorios de proyectos adicionales.
 - Repositorio, Design System y schemas reales del Portal de Capacidades.
 - Ubicación autorizada para crear worktrees físicos fuera del vault.

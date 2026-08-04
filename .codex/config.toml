@@ -1,0 +1,5 @@
+# Ajustes locales del proyecto para Codex en Asus Rog.
+# La guía de trabajo compartida vive en AGENTS.md.
+
+project_doc_max_bytes = 16384
+project_root_markers = [".git"]

@@ -98,7 +98,7 @@ function Update-Main {
     Write-Host "main actualizado mediante fast-forward."
   }
 
-  & bash (Join-Path $RepoRoot "agent-kit/scripts/validate-kit.sh") $RepoRoot
+  & powershell -ExecutionPolicy Bypass -File (Join-Path $RepoRoot "agent-kit/scripts/validate-kit.ps1") $RepoRoot
   if ($LASTEXITCODE -ne 0) {
     throw "La validación terminó con errores."
   }
@@ -137,6 +137,6 @@ switch ($Action) {
   "status" { Show-VersionState }
   "check" { Check-Remote }
   "update" { Update-Main }
-  "validate" { & bash (Join-Path $RepoRoot "agent-kit/scripts/validate-kit.sh") $RepoRoot }
+  "validate" { & powershell -ExecutionPolicy Bypass -File (Join-Path $RepoRoot "agent-kit/scripts/validate-kit.ps1") $RepoRoot }
   "open" { Open-Workspace }
 }
