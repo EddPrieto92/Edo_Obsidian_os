@@ -34,6 +34,7 @@ fuentes:
 - Portal de Capacidades planificado como MVP read-only de tres columnas.
 - Equipo `Asus Rog` conectado y verificado (local + Drive) el 2026-08-03.
 - `validate-kit.ps1` corregido: si `rg` no está en el PATH nativo, omite el escaneo de secretos con un aviso en vez de fallar (paridad con `validate-kit.sh`).
+- Handoff Codex → Claude del 2026-08-03 aceptado y cerrado por Claude, desde `Asus Rog`; transferencia piloto entre agentes confirmada como operable.
 
 ## Pendientes de verificación
 
@@ -42,7 +43,6 @@ fuentes:
 - Inventario de repositorios de proyectos adicionales.
 - Repositorio, Design System y schemas reales del Portal de Capacidades.
 - Ubicación autorizada para crear worktrees físicos fuera del vault.
-- Aceptación del primer handoff por Claude.
 
 ## Riesgos vigentes
 

@@ -11,7 +11,7 @@ fuente: solicitud-del-usuario-2026-08-03
 
 | Proyecto | Estado | Repositorio | Agente propietario | Próxima acción |
 |---|---|---|---|---|
-| Dual-LLM Continuity Kit | versión 0.2.0 preparada | `Edo_Obsidian_os-1` | Codex | Validar, versionar y transferir a Claude |
+| Dual-LLM Continuity Kit | versión 0.2.1, handoff piloto Codex→Claude cerrado | `Edo_Obsidian_os-1` | Compartido (Codex/Claude) | Completar onboarding de `Mac Air Edu`; versionar y publicar el kit |
 | Portal de Capacidades | planificación inicial | pendiente de verificar | sin asignar | Localizar repositorio, schemas y Design System |
 
 ## Por incorporar

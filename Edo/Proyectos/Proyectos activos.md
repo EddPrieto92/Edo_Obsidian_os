@@ -10,7 +10,7 @@ Listar proyectos activos confirmados por fuentes reales.
 
 ### Dual-LLM Continuity Kit
 
-- Estado: versión 0.2.0 preparada para publicación.
+- Estado: versión 0.2.1; handoff piloto Codex → Claude aceptado y cerrado el 2026-08-03. Ver [[Dual-LLM Continuity Kit]].
 - Objetivo: integrar Codex, Claude, Obsidian, VS Code, Git y Drive con contexto portable y uso controlado de tokens.
 - Repositorio: `Edo_Obsidian_os-1`.
 - Fuente: solicitud explícita del usuario del 2026-08-03.
@@ -25,9 +25,8 @@ Listar proyectos activos confirmados por fuentes reales.
 
 ## Próximas acciones
 
-- Validar, versionar y publicar el kit 0.2.0.
-- Realizar una transferencia piloto Codex → Claude.
-- Completar onboarding de Mac Air Edu y Asus Rog.
+- Completar onboarding de Mac Air Edu.
+- Versionar y publicar el kit (release formal, más allá del `agent-kit/VERSION` interno).
 - Localizar el repositorio, schemas y Design System del Portal de Capacidades.
 
 ## Fuentes

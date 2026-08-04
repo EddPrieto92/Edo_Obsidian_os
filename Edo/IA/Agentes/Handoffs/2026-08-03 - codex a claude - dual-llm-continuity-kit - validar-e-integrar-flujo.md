@@ -1,6 +1,6 @@
 ---
 tipo: handoff
-estado: listo
+estado: cerrado
 origen: codex
 destino: claude
 proyecto: "Dual-LLM Continuity Kit"
@@ -77,6 +77,15 @@ Validar la configuración inicial, abrirla desde Claude y confirmar que ambos ag
 ## Próxima acción exacta
 
 Claude debe abrir `workspaces/edo-claude.code-workspace`, leer `Edo/IA/Agentes/00 - Inicio rápido.md`, ejecutar `bash agent-kit/scripts/validate-kit.sh .` y revisar el diff antes de aceptar este handoff.
+
+## Aceptación y cierre
+
+- Fecha: 2026-08-03.
+- Agente receptor: Claude.
+- Commit base al aceptar: `f623f1d` (posterior al `d4f82a1` original; entre medio se completó el onboarding de `Asus Rog` y el fix de `validate-kit.ps1`, ambos ya publicados en `main`).
+- Validación ejecutada: `agent-kit/scripts/validate-kit.ps1 .` → `Validation passed.` (equivalente Windows de `validate-kit.sh`, usado porque este equipo es `Asus Rog`).
+- Diff revisado: sin cambios pendientes al momento de aceptar (árbol limpio).
+- Resultado: el flujo compartido (memoria en `Edo/IA/Agentes/`, skill `dual-llm-continuity`, scripts de validación y arranque) quedó confirmado como operable desde un segundo agente y una segunda máquina distintos a los que lo crearon. Se considera cerrada la transferencia piloto Codex → Claude.
 
 ## Fuentes
 

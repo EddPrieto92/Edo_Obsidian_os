@@ -8,11 +8,11 @@ actualizado: 2026-08-03
 
 ## Activos
 
-- [[2026-08-03 - codex a claude - dual-llm-continuity-kit - validar-e-integrar-flujo]] — estado `listo`.
+No hay handoffs activos.
 
 ## Cerrados
 
-No hay handoffs cerrados verificados.
+- [[2026-08-03 - codex a claude - dual-llm-continuity-kit - validar-e-integrar-flujo]] — estado `cerrado`, aceptado por Claude el 2026-08-03.
 
 ## Convención
 
