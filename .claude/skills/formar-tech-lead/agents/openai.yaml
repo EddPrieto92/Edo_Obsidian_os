@@ -1,0 +1,4 @@
+interface:
+  display_name: "Formación Tech Lead"
+  short_description: "Aprendizaje técnico guiado con proyectos reales"
+  default_prompt: "Usa $formar-tech-lead para evaluar mi nivel y preparar una sesión práctica basada en mis proyectos."

@@ -1,10 +1,12 @@
 ---
 tipo: estado
 estado: activo
-actualizado: 2026-08-03
+actualizado: 2026-08-04
 fuentes:
   - solicitud-del-usuario-2026-08-03
   - git-local-2026-08-03
+  - solicitud-del-usuario-2026-08-04
+  - git-local-2026-08-04
 ---
 
 # Estado compartido
@@ -35,6 +37,12 @@ fuentes:
 - Equipo `Asus Rog` conectado y verificado (local + Drive) el 2026-08-03.
 - `validate-kit.ps1` corregido: si `rg` no está en el PATH nativo, omite el escaneo de secretos con un aviso en vez de fallar (paridad con `validate-kit.sh`).
 - Handoff Codex → Claude del 2026-08-03 aceptado y cerrado por Claude, desde `Asus Rog`; transferencia piloto entre agentes confirmada como operable.
+- Memoria histórica maestra y contexto integral agregados para recuperación desde Claude y Codex.
+- Sistema Operativo Personal Asistido por IA documentado como proyecto activo.
+- Skills de Claude `formar-tech-lead` y `generar-briefing-semanal` creadas y validadas.
+- Configuración MCP real declarada como local; `.mcp.json.example` es la variante portable sin secretos.
+- Clones físicos dentro de `Machines/` excluidos del versionado; esa carpeta conserva solo accesos lógicos.
+- Kit preparado como versión `0.3.0` para publicación en `main`.
 
 ## Pendientes de verificación
 

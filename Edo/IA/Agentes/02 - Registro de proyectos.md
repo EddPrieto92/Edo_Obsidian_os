@@ -1,8 +1,10 @@
 ---
 tipo: registro
 estado: activo
-actualizado: 2026-08-03
-fuente: solicitud-del-usuario-2026-08-03
+actualizado: 2026-08-04
+fuentes:
+  - solicitud-del-usuario-2026-08-03
+  - solicitud-del-usuario-2026-08-04
 ---
 
 # Registro de proyectos
@@ -11,8 +13,9 @@ fuente: solicitud-del-usuario-2026-08-03
 
 | Proyecto | Estado | Repositorio | Agente propietario | Próxima acción |
 |---|---|---|---|---|
-| Dual-LLM Continuity Kit | versión 0.2.1, handoff piloto Codex→Claude cerrado | `Edo_Obsidian_os-1` | Compartido (Codex/Claude) | Completar onboarding de `Mac Air Edu`; versionar y publicar el kit |
+| Dual-LLM Continuity Kit | versión 0.3.0, handoff piloto Codex→Claude cerrado | `Edo_Obsidian_os-1` | Compartido (Codex/Claude) | Completar onboarding de `Mac Air Edu`; publicar y validar v0.3.0 en los equipos |
 | Portal de Capacidades | planificación inicial | pendiente de verificar | sin asignar | Localizar repositorio, schemas y Design System |
+| Sistema Operativo Personal Asistido por IA | niveles 1–2 operables; nivel 3 en desarrollo | `Edo_Obsidian_os-1` | Compartido (usuario/Codex/Claude) | Probar formación y briefing manual; definir fuentes para automatización |
 
 ## Por incorporar
 

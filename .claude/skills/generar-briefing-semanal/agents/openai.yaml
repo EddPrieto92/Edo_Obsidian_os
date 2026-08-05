@@ -1,0 +1,4 @@
+interface:
+  display_name: "Briefing semanal"
+  short_description: "Prioriza proyectos, riesgos y acciones semanales"
+  default_prompt: "Usa $generar-briefing-semanal para preparar mi revisión priorizada de esta semana."

@@ -57,14 +57,14 @@ Adaptadores: `AGENTS.md` guía a Codex y `CLAUDE.md` guía a Claude. Ambos deben
 - Repositorio: `EddPrieto92/Edo_Obsidian_os`; rama publicada: `main`.
 - Último commit observado: `9decac9` — aceptación del piloto Codex → Claude y nota del proyecto del kit.
 - El piloto se cerró el 2026-08-03: Claude aceptó el handoff desde `Asus Rog` y confirmó que memoria, skill, scripts y flujo funcionan en un segundo agente y una segunda máquina.
-- Kit actual: versión `0.2.1`.
+- Kit actual: versión `0.3.0`.
 - En esta sesión se añadieron [[07 - Memoria histórica maestra]] y esta nota; por ello debe revisarse el estado de Git real antes de cualquier tarea posterior. No asumir un árbol limpio a partir de este texto.
 
 ## Proyectos
 
 | Proyecto | Situación | Próximo movimiento comprobable |
 | --- | --- | --- |
-| [[../../Proyectos/Dual-LLM Continuity Kit\|Dual-LLM Continuity Kit]] | activo, piloto cerrado, v0.2.1 | onboarding local de Mac Air Edu; definir release/versionado y ruta de worktrees físicos |
+| [[../../Proyectos/Dual-LLM Continuity Kit\|Dual-LLM Continuity Kit]] | activo, piloto cerrado, v0.3.0 | onboarding local de Mac Air Edu; validar la versión en cada equipo y definir ruta de worktrees físicos |
 | Portal de Capacidades | planificación inicial; sin repo ni Design System verificados | localizar repositorio, schemas y Design System reales antes de implementar |
 
 No incorporar otros proyectos hasta verificar ruta local o remoto Git, rama, comandos de validación, fuentes externas y propiedad de la tarea.

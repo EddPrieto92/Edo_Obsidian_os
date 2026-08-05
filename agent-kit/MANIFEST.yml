@@ -1,7 +1,7 @@
 name: dual-llm-continuity-kit
-version: 0.2.1
+version: 0.3.0
 generated_from: Edo_Obsidian_os-1
-generated_on: 2026-08-03
+generated_on: 2026-08-04
 purpose: continuidad portable entre Codex y Claude
 authority:
   code_and_markdown_history: git
@@ -16,6 +16,9 @@ include:
   - .codex/config.toml.example
   - .codex/skills/dual-llm-continuity
   - .claude/skills/dual-llm-continuity
+  - .claude/skills/formar-tech-lead
+  - .claude/skills/generar-briefing-semanal
+  - .mcp.json.example
   - agent-kit
   - workspaces
   - .vscode/tasks.json

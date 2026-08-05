@@ -2,6 +2,10 @@
 .edo-machine
 agent-kit/config/machine.local.json
 agent-kit/config/machines.local.json
+.mcp.json
+
+# Clones físicos locales: Machines contiene solo accesos lógicos
+Machines/*/Edo_Obsidian_os/
 
 # Credenciales y variables locales
 .env

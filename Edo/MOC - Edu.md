@@ -32,6 +32,7 @@ Mapa principal de navegación del vault Edo.
 
 - [[Proyectos/Proyectos activos]]
 - [[Proyectos/Portal de Capacidades/README|Portal de Capacidades]]
+- [[Proyectos/Sistema Operativo Personal Asistido por IA]]
 - [[IA/Agentes/02 - Registro de proyectos]]
 
 ## Decisiones recientes
@@ -54,4 +55,5 @@ Mapa principal de navegación del vault Edo.
 - [[IA/Agentes/00 - Inicio rápido|Sistema Codex + Claude]]
 - [[Reglas - Push Pull Histórico]]
 - [[IA/Agentes/Handoffs/Índice de handoffs]]
+- [[Tecnología/Aprendizaje/Progreso Tech Lead]]
 - [[../Machines/README|Edu — equipos y proyectos]]
