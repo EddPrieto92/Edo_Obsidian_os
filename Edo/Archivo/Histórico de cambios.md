@@ -13,6 +13,7 @@ Registrar cambios relevantes realizados sobre el vault Edo.
 - 2026-08-03: incorporación del árbol lógico Mac Coders / Mac Air Edu / Asus Rog y arranque seguro multiplataforma.
 - 2026-08-03: planificación del Panel Edu y Schema Workbench y versionado del handoff fuente.
 - 2026-08-05: organización de Cencosud por programa, proyecto, tareas, fuentes y skills.
+- 2026-08-05: publicación preparada de EihwazOS V1 y del kit `v0.4.0`.
 
 ## Motivo
 

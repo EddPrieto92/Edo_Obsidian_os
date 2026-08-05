@@ -1,12 +1,14 @@
 ---
 tipo: estado
 estado: activo
-actualizado: 2026-08-04
+actualizado: 2026-08-05
 fuentes:
   - solicitud-del-usuario-2026-08-03
   - git-local-2026-08-03
   - solicitud-del-usuario-2026-08-04
   - git-local-2026-08-04
+  - solicitud-del-usuario-2026-08-05
+  - git-local-2026-08-05
 ---
 
 # Estado compartido
@@ -42,7 +44,11 @@ fuentes:
 - Skills de Claude `formar-tech-lead` y `generar-briefing-semanal` creadas y validadas.
 - Configuración MCP real declarada como local; `.mcp.json.example` es la variante portable sin secretos.
 - Clones físicos dentro de `Machines/` excluidos del versionado; esa carpeta conserva solo accesos lógicos.
-- Kit preparado como versión `0.3.0` para publicación en `main`.
+- Kit preparado como versión `0.4.0` para publicación en `main`.
+- Handoff Codex → VS Code del 2026-08-05 (`EihwazOS V1`) recibido por Claude: la rama exclusiva de Codex nunca se creó, así que la tarea seguía sin dueño. Claude la adoptó en rama propia `claude/eihwazos-v1` (base `f2321d3`).
+- Bloqueos del handoff resueltos: existe otro vault externo de Obsidian con trabajo independiente; se decidió que EihwazOS vive en `Edo_Obsidian_os-1` como vault propio y separado. No hay Dataview ni ningún plugin de comunidad instalado en ningún vault verificado.
+- EihwazOS V1 implementado como plugin propio de Obsidian (`.obsidian/plugins/eihwazos-v1/`, sin build step) más `.obsidian/app.json`, `core-plugins.json` y `community-plugins.json` mínimos para este repo. Portada de constelación con núcleo (`Edo/MOC - Edu`), nodos generados dinámicamente desde las carpetas reales de `Edo/` (19 áreas, sin forzar los 7 dominios narrativos originales del handoff) y buscador nativo sin Dataview. Documentado en [[../../00 - EihwazOS|Edo/00 - EihwazOS]].
+- Pendiente: validar visualmente en Obsidian real (abrir el vault, activar plugins de comunidad) — no ejecutado en esta sesión por no tener Obsidian disponible en el entorno de agente.
 
 ## Pendientes de verificación
 
@@ -51,6 +57,7 @@ fuentes:
 - Inventario de repositorios de proyectos adicionales.
 - Repositorio del Portal de Capacidades localizado (`VernoVentures/mock`, mock frontend sin remoto Git); Design System y schemas reales de Cencosud (backend) siguen pendientes de verificar.
 - Ubicación autorizada para crear worktrees físicos fuera del vault.
+- Validación manual de EihwazOS V1 dentro de Obsidian real (apertura, clic en nodos activos/vacíos, buscador con teclado) — pendiente de que el usuario la ejecute.
 
 ## Riesgos vigentes
 

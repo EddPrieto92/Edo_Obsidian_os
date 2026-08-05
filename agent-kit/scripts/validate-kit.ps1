@@ -7,13 +7,17 @@ $RepoRoot = (Resolve-Path $RepoRoot).Path
 $Failures = 0
 
 $RequiredPaths = @(
-  "AGENTS.md", "CLAUDE.md", ".gitignore", ".claude/settings.json", ".vscode/tasks.json",
+  "AGENTS.md", "CLAUDE.md", ".gitignore", ".claude/settings.json", ".obsidian/app.json",
+  ".obsidian/community-plugins.json", ".obsidian/core-plugins.json",
+  ".obsidian/plugins/eihwazos-v1/main.js", ".obsidian/plugins/eihwazos-v1/manifest.json",
+  ".obsidian/plugins/eihwazos-v1/styles.css", ".vscode/tasks.json",
   "Machines/registry.yml", "agent-kit/VERSION", "agent-kit/MANIFEST.yml",
   "agent-kit/MULTI-MACHINE-STARTUP.md", "agent-kit/config/machine.local.example.json",
   "agent-kit/scripts/edo-start.sh", "agent-kit/scripts/edo-start.ps1",
   "agent-kit/scripts/validate-kit.ps1", "agent-kit/skills/dual-llm-continuity/SKILL.md",
   "Edo/IA/Agentes/01 - Estado compartido.md",
   "Edo/Cencosud/README.md",
+  "Edo/Archivo/Release notes v0.4.0.md",
   "Edo/Proyectos/Panel Edu y Schema Workbench/IMPLEMENTATION_PLAN.md",
   "Edo/Proyectos/Panel Edu y Schema Workbench/Sources/PORTAL_CAPACIDADES_SCHEMA_WORKBENCH_HANDOFF.md",
   ".claude/skills/itds-board-composer/SKILL.md",
@@ -36,7 +40,8 @@ if (-not (Get-ChildItem -LiteralPath (Join-Path $RepoRoot "Edo/IA/Agentes") -Fil
 }
 
 $JsonPaths = @(
-  ".claude/settings.json", ".vscode/tasks.json", "agent-kit/adapters/claude/.claude/settings.json",
+  ".claude/settings.json", ".obsidian/app.json", ".obsidian/community-plugins.json",
+  ".obsidian/core-plugins.json", ".vscode/tasks.json", "agent-kit/adapters/claude/.claude/settings.json",
   "agent-kit/config/machine.local.example.json", "workspaces/edu-control.code-workspace",
   "workspaces/edo-codex.code-workspace", "workspaces/edo-claude.code-workspace"
 )

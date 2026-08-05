@@ -29,6 +29,7 @@ package_dir="$stage_dir/$package_name"
 mkdir -p \
   "$package_dir/.codex/skills" \
   "$package_dir/.claude/skills" \
+  "$package_dir/.obsidian/plugins" \
   "$package_dir/.vscode" \
   "$package_dir/Edo/Cencosud" \
   "$package_dir/Edo/IA" \
@@ -52,9 +53,14 @@ cp "$repo_root/Edo/Taxonomía.md" "$package_dir/Edo/Taxonomía.md"
 cp "$repo_root/Edo/Reglas - Push Pull Histórico.md" "$package_dir/Edo/Reglas - Push Pull Histórico.md"
 cp "$repo_root/Edo/Proyectos/Proyectos activos.md" "$package_dir/Edo/Proyectos/Proyectos activos.md"
 cp "$repo_root/Edo/Archivo/Histórico de cambios.md" "$package_dir/Edo/Archivo/Histórico de cambios.md"
+cp "$repo_root/Edo/Archivo/Release notes v0.4.0.md" "$package_dir/Edo/Archivo/Release notes v0.4.0.md"
 cp "$repo_root/Edo/Archivo/Timeline.md" "$package_dir/Edo/Archivo/Timeline.md"
 cp "$repo_root/Edo/Archivo/Decisiones.md" "$package_dir/Edo/Archivo/Decisiones.md"
 cp "$repo_root/.claude/settings.json" "$package_dir/.claude/settings.json"
+cp "$repo_root/.obsidian/app.json" "$package_dir/.obsidian/app.json"
+cp "$repo_root/.obsidian/community-plugins.json" "$package_dir/.obsidian/community-plugins.json"
+cp "$repo_root/.obsidian/core-plugins.json" "$package_dir/.obsidian/core-plugins.json"
+cp -R "$repo_root/.obsidian/plugins/eihwazos-v1" "$package_dir/.obsidian/plugins/eihwazos-v1"
 cp "$repo_root/agent-kit/adapters/codex/.codex/config.toml.example" "$package_dir/.codex/config.toml.example"
 cp -R "$repo_root/agent-kit/skills/dual-llm-continuity" "$package_dir/.codex/skills/dual-llm-continuity"
 cp -R "$repo_root/agent-kit/skills/dual-llm-continuity" "$package_dir/.claude/skills/dual-llm-continuity"

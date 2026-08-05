@@ -17,7 +17,7 @@ Integrar Codex, Claude, Obsidian, VS Code, Git y Drive en un flujo de trabajo co
 
 ## Estado
 
-- Versión del kit: `0.3.0` (`agent-kit/VERSION`).
+- Versión del kit: `0.4.0` (`agent-kit/VERSION`).
 - Repositorio: `Edo_Obsidian_os-1` (`EddPrieto92/Edo_Obsidian_os`), rama única `main`.
 - Propietario: compartido entre Codex y Claude; sin agente único asignado.
 - Handoff piloto Codex → Claude (2026-08-03) aceptado y cerrado por Claude desde el equipo `Asus Rog`. Confirma que el flujo compartido es operable desde un segundo agente y una segunda máquina.
@@ -47,7 +47,7 @@ Fuente: [[../../Machines/registry.yml|Machines/registry.yml]].
 
 - Completar onboarding local de `Mac Air Edu` (hoy solo verificado por Drive).
 - Instalar `ripgrep` en el PATH nativo de PowerShell en `Asus Rog`, o mantener como aceptado el uso de git-bash para la validación completa.
-- Validar la versión `0.3.0` desde cada equipo después de publicarla.
+- Validar la versión `0.4.0` desde cada equipo después de publicarla.
 - Definir la ubicación autorizada para worktrees físicos fuera del vault, antes de que ambos agentes trabajen en paralelo sobre la misma tarea.
 
 ## Riesgos vigentes

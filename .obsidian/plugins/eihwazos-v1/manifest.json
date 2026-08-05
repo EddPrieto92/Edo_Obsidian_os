@@ -1,0 +1,9 @@
+{
+  "id": "eihwazos-v1",
+  "name": "EihwazOS",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Portada de constelación para el vault Edo: acceso rápido a las áreas reales y búsqueda universal.",
+  "author": "Edo",
+  "isDesktopOnly": false
+}

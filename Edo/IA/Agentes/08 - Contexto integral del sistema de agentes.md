@@ -57,14 +57,14 @@ Adaptadores: `AGENTS.md` guía a Codex y `CLAUDE.md` guía a Claude. Ambos deben
 - Repositorio: `EddPrieto92/Edo_Obsidian_os`; rama publicada: `main`.
 - Último commit observado: `9decac9` — aceptación del piloto Codex → Claude y nota del proyecto del kit.
 - El piloto se cerró el 2026-08-03: Claude aceptó el handoff desde `Asus Rog` y confirmó que memoria, skill, scripts y flujo funcionan en un segundo agente y una segunda máquina.
-- Kit actual: versión `0.3.0`.
+- Kit actual: versión `0.4.0` preparada para publicación.
 - En esta sesión se añadieron [[07 - Memoria histórica maestra]] y esta nota; por ello debe revisarse el estado de Git real antes de cualquier tarea posterior. No asumir un árbol limpio a partir de este texto.
 
 ## Proyectos
 
 | Proyecto | Situación | Próximo movimiento comprobable |
 | --- | --- | --- |
-| [[../../Proyectos/Dual-LLM Continuity Kit\|Dual-LLM Continuity Kit]] | activo, piloto cerrado, v0.3.0 | onboarding local de Mac Air Edu; validar la versión en cada equipo y definir ruta de worktrees físicos |
+| [[../../Proyectos/Dual-LLM Continuity Kit\|Dual-LLM Continuity Kit]] | activo, piloto cerrado, v0.4.0 preparada | publicar, validar la versión en cada equipo y definir ruta de worktrees físicos |
 | [[../../Proyectos/Panel Edu y Schema Workbench/README\|Panel Edu y Schema Workbench]] | planificación personal inicial | mantener separado del contexto corporativo |
 | [[../../Cencosud/Applied IA/Portal de Capacidades/00 - Portal de Capacidades\|Portal de Capacidades Agénticas]] | mock local disponible y frente Portal Agentes activo; repo canónico, schemas y Design System aún por confirmar | resolver fixture, ubicación del código y contratos reales |
 

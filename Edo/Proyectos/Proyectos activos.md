@@ -10,7 +10,7 @@ Listar proyectos activos confirmados por fuentes reales.
 
 ### Dual-LLM Continuity Kit
 
-- Estado: versión 0.3.0; handoff piloto Codex → Claude aceptado y cerrado el 2026-08-03. Ver [[Dual-LLM Continuity Kit]].
+- Estado: versión 0.4.0 preparada para publicación; handoff piloto Codex → Claude aceptado y cerrado el 2026-08-03. Ver [[Dual-LLM Continuity Kit]].
 - Objetivo: integrar Codex, Claude, Obsidian, VS Code, Git y Drive con contexto portable y uso controlado de tokens.
 - Repositorio: `Edo_Obsidian_os-1`.
 - Fuente: solicitud explícita del usuario del 2026-08-03.
