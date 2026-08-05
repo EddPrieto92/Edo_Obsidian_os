@@ -18,13 +18,17 @@ include:
   - .claude/skills/dual-llm-continuity
   - .claude/skills/formar-tech-lead
   - .claude/skills/generar-briefing-semanal
+  - .claude/skills/itds-board-composer
+  - .claude/skills/itds-code-forge
+  - .claude/skills/mock-frontend
   - .mcp.json.example
   - agent-kit
   - workspaces
   - .vscode/tasks.json
   - Machines
   - Edo/IA/Agentes
-  - Edo/Proyectos/Portal de Capacidades
+  - Edo/Cencosud
+  - Edo/Proyectos/Panel Edu y Schema Workbench
   - Edo/README.md
   - Edo/MOC - Edu.md
   - Edo/Estado del Vault.md

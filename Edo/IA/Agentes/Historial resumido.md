@@ -22,7 +22,12 @@ fuentes:
 - Se inició la generación del kit de continuidad y su exportación ZIP.
 - Se verificaron dos árboles de Drive y el equipo local Mac Coders (MacBook Air de Coderslab).
 - Se definió `main` como versión canónica y un arranque seguro para tres equipos.
-- Se planificó el Portal de Capacidades sin implementar aún su interfaz.
+- Se planificó el Panel Edu y Schema Workbench; esa propuesta híbrida se separó después del Portal de Capacidades Agénticas corporativo.
+
+## 2026-08-05
+
+- Se organizó el contexto Cencosud dentro de `Edo/Cencosud/` por Mi Local, Applied IA y Modernización.
+- Se indexaron tareas visibles de Planner/Jira, fuentes y decisiones históricas sin copiar transcripciones completas.
 
 ## No disponible
 

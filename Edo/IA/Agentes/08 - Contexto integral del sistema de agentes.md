@@ -1,7 +1,7 @@
 ---
 tipo: contexto-agentes
 estado: activo
-actualizado: 2026-08-04
+actualizado: 2026-08-05
 fuentes:
   - Edo/IA/Agentes/00 - Inicio rápido.md
   - Edo/IA/Agentes/01 - Estado compartido.md
@@ -65,7 +65,8 @@ Adaptadores: `AGENTS.md` guía a Codex y `CLAUDE.md` guía a Claude. Ambos deben
 | Proyecto | Situación | Próximo movimiento comprobable |
 | --- | --- | --- |
 | [[../../Proyectos/Dual-LLM Continuity Kit\|Dual-LLM Continuity Kit]] | activo, piloto cerrado, v0.3.0 | onboarding local de Mac Air Edu; validar la versión en cada equipo y definir ruta de worktrees físicos |
-| Portal de Capacidades | planificación inicial; sin repo ni Design System verificados | localizar repositorio, schemas y Design System reales antes de implementar |
+| [[../../Proyectos/Panel Edu y Schema Workbench/README\|Panel Edu y Schema Workbench]] | planificación personal inicial | mantener separado del contexto corporativo |
+| [[../../Cencosud/Applied IA/Portal de Capacidades/00 - Portal de Capacidades\|Portal de Capacidades Agénticas]] | mock local disponible y frente Portal Agentes activo; repo canónico, schemas y Design System aún por confirmar | resolver fixture, ubicación del código y contratos reales |
 
 No incorporar otros proyectos hasta verificar ruta local o remoto Git, rama, comandos de validación, fuentes externas y propiedad de la tarea.
 
@@ -113,7 +114,7 @@ Un handoff está listo solo si el agente receptor puede continuar sin leer el ch
 - La ubicación de worktrees físicos aún no está autorizada/definida.
 - En PowerShell de Asus Rog, `ripgrep` no está en el PATH nativo; la validación sigue funcionando con aviso o puede ejecutarse completa desde git-bash.
 - El histórico de conversaciones previo al vault no está disponible como fuente local. Para incorporarlo, usar [[07 - Memoria histórica maestra]] y registrar cada exportación antes de sintetizarla.
-- No hay repositorio, schemas ni Design System confirmados para el Portal de Capacidades.
+- El mock del Portal de Capacidades está localizado, pero su remoto canónico, schemas y Design System de integración siguen sin confirmarse.
 
 ## Referencias de profundización
 

@@ -13,8 +13,12 @@ $RequiredPaths = @(
   "agent-kit/scripts/edo-start.sh", "agent-kit/scripts/edo-start.ps1",
   "agent-kit/scripts/validate-kit.ps1", "agent-kit/skills/dual-llm-continuity/SKILL.md",
   "Edo/IA/Agentes/01 - Estado compartido.md",
-  "Edo/Proyectos/Portal de Capacidades/IMPLEMENTATION_PLAN.md",
-  "Edo/Proyectos/Portal de Capacidades/Sources/PORTAL_CAPACIDADES_SCHEMA_WORKBENCH_HANDOFF.md",
+  "Edo/Cencosud/README.md",
+  "Edo/Proyectos/Panel Edu y Schema Workbench/IMPLEMENTATION_PLAN.md",
+  "Edo/Proyectos/Panel Edu y Schema Workbench/Sources/PORTAL_CAPACIDADES_SCHEMA_WORKBENCH_HANDOFF.md",
+  ".claude/skills/itds-board-composer/SKILL.md",
+  ".claude/skills/itds-code-forge/SKILL.md",
+  ".claude/skills/mock-frontend/SKILL.md",
   "workspaces/edu-control.code-workspace", "workspaces/edo-codex.code-workspace",
   "workspaces/edo-claude.code-workspace"
 )
@@ -55,7 +59,7 @@ foreach ($InstructionFile in @("AGENTS.md", "CLAUDE.md")) {
 
 if (Get-Command rg -ErrorAction SilentlyContinue) {
   $SecretPattern = '(sk-[A-Za-z0-9_-]{32,}|ghp_[A-Za-z0-9]{30,}|AKIA[A-Za-z0-9]{16}|BEGIN\s+(RSA\s+)?PRIVATE\s+KEY)'
-  $SecretMatches = & rg -n --hidden --glob '!**/.git/**' --glob '!agent-kit/scripts/validate-kit.sh' $SecretPattern $RepoRoot
+  $SecretMatches = & rg -n --hidden --glob '!.git' --glob '!**/.git/**' --glob '!agent-kit/scripts/validate-kit.sh' $SecretPattern $RepoRoot
   if ($LASTEXITCODE -eq 0) {
     $SecretMatches
     Write-Error "POSSIBLE SECRET: review matches above"

@@ -4,11 +4,13 @@ estado: planificado
 actualizado: 2026-08-03
 ---
 
-# Portal de Capacidades
+# Panel Edu y Schema Workbench
 
 ## Estado
 
 Planificación inicial cerrada. La interfaz todavía no está implementada y el repositorio real del portal sigue pendiente de localizar.
+
+> Este proyecto pertenece a EihwazOS/VERNO. No es el Portal de Capacidades Agénticas de Cencosud; su contexto corporativo vive en [[../../Cencosud/Applied IA/Portal de Capacidades/00 - Portal de Capacidades]].
 
 ## Lectura recomendada
 

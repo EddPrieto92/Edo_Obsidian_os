@@ -15,13 +15,22 @@ Listar proyectos activos confirmados por fuentes reales.
 - Repositorio: `Edo_Obsidian_os-1`.
 - Fuente: solicitud explícita del usuario del 2026-08-03.
 
-### Portal de Capacidades
+### Panel Edu y Schema Workbench (interno EihwazOS)
 
 - Estado: planificación inicial cerrada; implementación no iniciada.
 - Objetivo: navegar el Second Brain y ofrecer un Schema Workbench de tres columnas.
 - Repositorio de producto: pendiente de verificar.
-- Plan: [[Portal de Capacidades/IMPLEMENTATION_PLAN]].
-- Fuente: [[Portal de Capacidades/Sources/PORTAL_CAPACIDADES_SCHEMA_WORKBENCH_HANDOFF]].
+- Plan: [[Panel Edu y Schema Workbench/IMPLEMENTATION_PLAN]].
+- Fuente: [[Panel Edu y Schema Workbench/Sources/PORTAL_CAPACIDADES_SCHEMA_WORKBENCH_HANDOFF]].
+- Clasificación: proyecto personal/interno; no confundir con el Portal de Capacidades Agénticas de Cencosud.
+
+### Portal de Capacidades Agénticas — Cencosud
+
+- Estado: frente activo del equipo AppliedAI; mock navegable de cinco pantallas disponible.
+- Objetivo: configurar y observar capacidades agénticas desplegadas en productos de Cencosud.
+- Contexto maestro: [[../Cencosud/Applied IA/Portal de Capacidades/00 - Portal de Capacidades]].
+- Tareas: [[../Cencosud/03 - Tareas en proceso]].
+- Fuente: Planner `AppliedAI de Software Engineering`, verificado el 2026-08-05.
 
 ### Sistema Operativo Personal Asistido por IA
 
@@ -34,7 +43,7 @@ Listar proyectos activos confirmados por fuentes reales.
 
 - Completar onboarding de Mac Air Edu.
 - Versionar y publicar el kit (release formal, más allá del `agent-kit/VERSION` interno).
-- Localizar el repositorio, schemas y Design System del Portal de Capacidades.
+- Confirmar el repositorio canónico, schemas y Design System del Portal de Capacidades Agénticas.
 - Probar manualmente el briefing semanal y ejecutar la evaluación inicial Tech Lead.
 
 ## Fuentes

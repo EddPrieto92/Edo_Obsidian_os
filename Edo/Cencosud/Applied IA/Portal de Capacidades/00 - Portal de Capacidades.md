@@ -1,11 +1,16 @@
 ---
 tipo: moc
 estado: activo
-actualizado: 2026-08-04
-fuente: solicitud-del-usuario-2026-08-04
+actualizado: 2026-08-05
+organizacion: Cencosud
+programa: Applied IA
+proyecto: Portal de Capacidades Agénticas
+fuentes:
+  - solicitud-del-usuario-2026-08-04
+  - planner-appliedai-2026-08-05
 ---
 
-# Portal de Capacidades — Cencosud
+# Portal de Capacidades Agénticas — Cencosud
 
 ## Qué es
 
@@ -19,8 +24,9 @@ Mock/prototipo navegable de frontend puro (sin backend real) de "Capacidades Ag�
 
 ## Repositorio del mock
 
-- Ruta local: `/Users/coderslab/Documents/EduVaultMacCoders/VernoVentures/mock`
+- Ruta local actual: `<workspace>/VernoVentures/mock`
 - **No vive dentro de este repo (`Edo_Obsidian_os-1`)** — es un proyecto Vite + React independiente, sin remoto Git configurado todavía.
+- La ruta bajo `VernoVentures/` es una ubicación heredada: el proyecto se clasifica como **Cencosud** y debe mantenerse separado del roadmap personal de VERNO.
 - Comandos: `pnpm dev` (sirve en `http://localhost:5173` o el siguiente puerto libre), `pnpm exec tsc -b`, `pnpm exec oxlint src`, `pnpm run build`.
 
 ## Estado
@@ -34,6 +40,10 @@ Las 5 pantallas del inventario original ya están portadas:
 - Detalle de Capacidad (5 tabs)
 - Administración (usuarios, roles, permisos)
 - Configuración (perfil)
+
+## Estado operativo observado
+
+El tablero `AppliedAI de Software Engineering` confirma el frente `Portal Agentes` activo al 2026-08-05. Hay trabajo pendiente o en curso sobre prueba de agente de asistencia, frontend de capacidades agénticas, Agent Core, árbol de agentes y Design Capabilities. Ver [[../../03 - Tareas en proceso]].
 
 ## Fuentes
 

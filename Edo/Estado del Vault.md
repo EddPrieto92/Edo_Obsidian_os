@@ -13,18 +13,20 @@ Registrar el estado general del vault Edo.
 - Sistema de continuidad Codex + Claude preparado como kit 0.2.0.
 - Memoria operativa disponible en [[IA/Agentes/00 - Inicio rápido]].
 - Panel multi-equipo disponible en [[../Machines/README]].
-- Plan del portal disponible en [[Proyectos/Portal de Capacidades/README]].
+- Plan personal del Panel Edu disponible en [[Proyectos/Panel Edu y Schema Workbench/README]].
+- Contexto corporativo separado en [[Cencosud/README]].
 
 ## Cambios recientes
 
 - 2026-08-03: se agregaron adaptadores separados, política de contexto, enrutamiento de modelos, plantillas y exportación portable.
-- 2026-08-03: se agregaron arranque seguro, registro de tres equipos y planificación read-only del Portal de Capacidades.
+- 2026-08-03: se agregaron arranque seguro, registro de tres equipos y planificación read-only del Panel Edu y Schema Workbench.
+- 2026-08-05: se separó el contexto corporativo de Cencosud por programa, proyecto, tareas y fuentes.
 
 ## Pendientes
 
 - Validar localmente Mac Air Edu y Asus Rog.
 - Registrar los repositorios de proyectos adicionales.
-- Localizar el repositorio y schemas reales del Portal de Capacidades.
+- Confirmar repositorio canónico, schemas y Design System del Portal de Capacidades Agénticas.
 - Definir la ubicación externa de worktrees Codex y Claude.
 - Completar una transferencia piloto entre ambos agentes.
 

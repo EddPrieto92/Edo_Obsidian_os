@@ -8,6 +8,7 @@ Mapa principal de navegación del vault Edo.
 
 ## Áreas principales
 
+- [[Cencosud/README|Cencosud]]
 - [[Diseño]]
 - [[UX]]
 - [[Tecnología]]
@@ -30,8 +31,10 @@ Mapa principal de navegación del vault Edo.
 
 ## Proyectos activos
 
+- [[Cencosud/01 - Estado y prioridades|Cencosud — estado y prioridades]]
+- [[Cencosud/02 - Registro de proyectos|Cencosud — registro de proyectos]]
 - [[Proyectos/Proyectos activos]]
-- [[Proyectos/Portal de Capacidades/README|Portal de Capacidades]]
+- [[Proyectos/Panel Edu y Schema Workbench/README|Panel Edu y Schema Workbench]]
 - [[Proyectos/Sistema Operativo Personal Asistido por IA]]
 - [[IA/Agentes/02 - Registro de proyectos]]
 

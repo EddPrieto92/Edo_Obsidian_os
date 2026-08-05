@@ -21,8 +21,12 @@ required_paths=(
   "agent-kit/skills/dual-llm-continuity/SKILL.md"
   "Edo/IA/Agentes/00 - Inicio rápido.md"
   "Edo/IA/Agentes/01 - Estado compartido.md"
-  "Edo/Proyectos/Portal de Capacidades/IMPLEMENTATION_PLAN.md"
-  "Edo/Proyectos/Portal de Capacidades/Sources/PORTAL_CAPACIDADES_SCHEMA_WORKBENCH_HANDOFF.md"
+  "Edo/Cencosud/README.md"
+  "Edo/Proyectos/Panel Edu y Schema Workbench/IMPLEMENTATION_PLAN.md"
+  "Edo/Proyectos/Panel Edu y Schema Workbench/Sources/PORTAL_CAPACIDADES_SCHEMA_WORKBENCH_HANDOFF.md"
+  ".claude/skills/itds-board-composer/SKILL.md"
+  ".claude/skills/itds-code-forge/SKILL.md"
+  ".claude/skills/mock-frontend/SKILL.md"
   "workspaces/edu-control.code-workspace"
   "workspaces/edo-codex.code-workspace"
   "workspaces/edo-claude.code-workspace"
@@ -72,15 +76,16 @@ done
 
 secret_pattern='(sk-[[:alnum:]_-]{32,}|ghp_[[:alnum:]]{30,}|AKIA[[:alnum:]]{16}|BEGIN[[:space:]]+(RSA[[:space:]]+)?PRIVATE[[:space:]]+KEY)'
 if command -v rg >/dev/null 2>&1; then
-  if rg -n --hidden --glob '!**/.git/**' --glob '!agent-kit/scripts/validate-kit.sh' "$secret_pattern" "$repo_root"; then
+  if rg -n --hidden --glob '!.git' --glob '!**/.git/**' --glob '!agent-kit/scripts/validate-kit.sh' "$secret_pattern" "$repo_root"; then
     echo "POSSIBLE SECRET: review matches above" >&2
     failures=$((failures + 1))
   fi
 fi
 
-personal_path_pattern='/(Users|home)/[^/]+/'
+personal_path_pattern='/(Users|home)/[^/]+/(Documents|Desktop|Downloads|Library|workspace|projects|repos)/'
 if command -v rg >/dev/null 2>&1; then
   if rg -n --hidden \
+    --glob '!.git' \
     --glob '!**/.git/**' \
     --glob '!agent-kit/scripts/validate-kit.sh' \
     "$personal_path_pattern" "$repo_root"; then

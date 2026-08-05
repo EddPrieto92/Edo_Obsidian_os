@@ -7,7 +7,7 @@ fuente: solicitud-del-usuario-2026-08-04
 
 # Arquitectura y stack — Portal de Capacidades
 
-Ver [[00 - Portal de Capacidades]] para contexto general. Decisiones tomadas por la skill `mock-frontend` (`.claude/skill/mock-frontend/` en la raíz del vault), sin repreguntar.
+Ver [[00 - Portal de Capacidades]] para contexto general. Decisiones tomadas por la skill `mock-frontend` (`.claude/skills/mock-frontend/` en este proyecto), sin repreguntar.
 
 ## Stack
 

@@ -1,7 +1,7 @@
 ---
 tipo: registro
 estado: activo
-actualizado: 2026-08-04
+actualizado: 2026-08-05
 fuentes:
   - solicitud-del-usuario-2026-08-03
   - solicitud-del-usuario-2026-08-04
@@ -14,7 +14,7 @@ fuentes:
 | Proyecto | Estado | Repositorio | Agente propietario | Próxima acción |
 |---|---|---|---|---|
 | Dual-LLM Continuity Kit | versión 0.3.0, handoff piloto Codex→Claude cerrado | `Edo_Obsidian_os-1` | Compartido (Codex/Claude) | Completar onboarding de `Mac Air Edu`; publicar y validar v0.3.0 en los equipos |
-| Portal de Capacidades (Cencosud) | mock frontend — 5 pantallas portadas desde Figma Site, ver [[../../../Cencosud/00 - Portal de Capacidades\|Cencosud]] | `VernoVentures/mock` (dentro de `EduVaultMacCoders`, sin remoto Git) | Claude | Decidir con la persona de diseño si el detalle de capacidad usa contenido propio por capacidad o mantiene el fixture único |
+| Portal de Capacidades Agénticas (Cencosud) | frente activo del equipo; mock frontend con 5 pantallas, ver [[../../Cencosud/Applied IA/Portal de Capacidades/00 - Portal de Capacidades\|contexto Cencosud]] | `VernoVentures/mock` (ruta local heredada; clasificación Cencosud; sin remoto Git verificado) | Claude (mock) / Codex (contexto) | Resolver el fixture único y confirmar si el código debe salir de `VernoVentures/` para respetar la separación Cencosud–VERNO |
 | Sistema Operativo Personal Asistido por IA | niveles 1–2 operables; nivel 3 en desarrollo | `Edo_Obsidian_os-1` | Compartido (usuario/Codex/Claude) | Probar formación y briefing manual; definir fuentes para automatización |
 
 ## Por incorporar

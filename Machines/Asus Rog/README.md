@@ -9,4 +9,4 @@
 ## Proyectos esperados
 
 - [[../../Edo/README|Edo / Second Brain]]
-- [[../../Edo/Proyectos/Portal de Capacidades/PROJECT_OVERVIEW|Portal de Capacidades]]
+- [[../../Edo/Cencosud/Applied IA/Portal de Capacidades/00 - Portal de Capacidades|Portal de Capacidades Agénticas — Cencosud]]

@@ -1,5 +1,5 @@
 schema_version: 1
-updated_on: 2026-08-03
+updated_on: 2026-08-05
 authority:
   repository: EddPrieto92/Edo_Obsidian_os
   branch: main
@@ -13,7 +13,7 @@ machines:
     drive_tree: Mi MacBook Air/EduVaultMacCoders/Edo_Obsidian_os-1
     projects:
       - edo-obsidian-os
-      - portal-capacidades
+      - portal-capacidades-cencosud
   mac-air-edu:
     display_name: Mac Air Edu
     platform: macos
@@ -21,7 +21,7 @@ machines:
     drive_tree: Mi Mac/EduVaultMacCoders/Edo_Obsidian_os-1
     projects:
       - edo-obsidian-os
-      - portal-capacidades
+      - portal-capacidades-cencosud
   asus-rog:
     display_name: Asus Rog
     platform: windows
@@ -29,14 +29,15 @@ machines:
     drive_tree: VERNO OS/edo_obsidian_os
     projects:
       - edo-obsidian-os
-      - portal-capacidades
+      - portal-capacidades-cencosud
 projects:
   edo-obsidian-os:
     display_name: Edo / Second Brain
     repository: EddPrieto92/Edo_Obsidian_os
     default_branch: main
-  portal-capacidades:
-    display_name: Portal de Capacidades
+  portal-capacidades-cencosud:
+    display_name: Portal de Capacidades Agénticas — Cencosud
     repository: pending-verification
     default_branch: pending-verification
-    planning_path: Edo/Proyectos/Portal de Capacidades
+    planning_path: Edo/Cencosud/Applied IA/Portal de Capacidades
+    local_prototype_path: VernoVentures/mock

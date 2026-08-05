@@ -6,6 +6,8 @@ actualizado: 2026-08-03
 
 # Product Context — Panel Edu y Schema Workbench
 
+> Contexto personal de EihwazOS/VERNO. No mezclar con la documentación corporativa de Cencosud.
+
 ## Modelo mental
 
     Edu

@@ -20,6 +20,7 @@ Codex ejecuta cambios sobre archivos.
 
 ## Estructura
 
+- `Cencosud/`: contexto corporativo organizado por programa, proyecto, tareas, fuentes y decisiones.
 - `IA/Agentes/`: memoria operativa compartida para Codex y Claude.
 - `Proyectos/`: registros confirmados de proyectos activos, pausados y archivados.
 - `Archivo/`: decisiones, aprendizajes, timeline e histórico.
@@ -29,10 +30,11 @@ Codex ejecuta cambios sobre archivos.
 ## Uso
 
 1. Entrar por [[MOC - Edu]].
-2. Para trabajo con agentes, abrir [[IA/Agentes/00 - Inicio rápido]].
-3. Mantener el estado vigente en [[IA/Agentes/01 - Estado compartido]].
-4. Registrar fuentes y decisiones antes de convertir inferencias en contexto permanente.
-5. Iniciar cada equipo con `workspaces/edu-control.code-workspace`.
+2. Para trabajo Cencosud, abrir [[Cencosud/README]] y luego [[Cencosud/01 - Estado y prioridades]].
+3. Para trabajo con agentes, abrir [[IA/Agentes/00 - Inicio rápido]].
+4. Mantener el estado vigente en [[IA/Agentes/01 - Estado compartido]].
+5. Registrar fuentes y decisiones antes de convertir inferencias en contexto permanente.
+6. Iniciar cada equipo con `workspaces/edu-control.code-workspace`.
 
 ## Mantenimiento
 

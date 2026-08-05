@@ -30,6 +30,7 @@ mkdir -p \
   "$package_dir/.codex/skills" \
   "$package_dir/.claude/skills" \
   "$package_dir/.vscode" \
+  "$package_dir/Edo/Cencosud" \
   "$package_dir/Edo/IA" \
   "$package_dir/Edo/Proyectos" \
   "$package_dir/Edo/Archivo"
@@ -42,7 +43,8 @@ cp -R "$repo_root/workspaces" "$package_dir/workspaces"
 cp -R "$repo_root/Machines" "$package_dir/Machines"
 cp "$repo_root/.vscode/tasks.json" "$package_dir/.vscode/tasks.json"
 cp -R "$repo_root/Edo/IA/Agentes" "$package_dir/Edo/IA/Agentes"
-cp -R "$repo_root/Edo/Proyectos/Portal de Capacidades" "$package_dir/Edo/Proyectos/Portal de Capacidades"
+cp -R "$repo_root/Edo/Cencosud/." "$package_dir/Edo/Cencosud/"
+cp -R "$repo_root/Edo/Proyectos/Panel Edu y Schema Workbench" "$package_dir/Edo/Proyectos/Panel Edu y Schema Workbench"
 cp "$repo_root/Edo/README.md" "$package_dir/Edo/README.md"
 cp "$repo_root/Edo/MOC - Edu.md" "$package_dir/Edo/MOC - Edu.md"
 cp "$repo_root/Edo/Estado del Vault.md" "$package_dir/Edo/Estado del Vault.md"
@@ -56,6 +58,9 @@ cp "$repo_root/.claude/settings.json" "$package_dir/.claude/settings.json"
 cp "$repo_root/agent-kit/adapters/codex/.codex/config.toml.example" "$package_dir/.codex/config.toml.example"
 cp -R "$repo_root/agent-kit/skills/dual-llm-continuity" "$package_dir/.codex/skills/dual-llm-continuity"
 cp -R "$repo_root/agent-kit/skills/dual-llm-continuity" "$package_dir/.claude/skills/dual-llm-continuity"
+cp -R "$repo_root/.claude/skills/itds-board-composer" "$package_dir/.claude/skills/itds-board-composer"
+cp -R "$repo_root/.claude/skills/itds-code-forge" "$package_dir/.claude/skills/itds-code-forge"
+cp -R "$repo_root/.claude/skills/mock-frontend" "$package_dir/.claude/skills/mock-frontend"
 
 rm -f \
   "$package_dir/agent-kit/config/machine.local.json" \

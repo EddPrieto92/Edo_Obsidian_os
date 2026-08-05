@@ -8,7 +8,7 @@ fuentes:
   - git-audit-2026-08-03
 ---
 
-# Project Overview — Portal de Capacidades
+# Project Overview — Panel Edu y Schema Workbench
 
 ## Objetivo
 

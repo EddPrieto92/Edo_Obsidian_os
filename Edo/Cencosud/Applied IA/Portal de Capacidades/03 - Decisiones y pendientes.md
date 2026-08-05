@@ -1,7 +1,7 @@
 ---
 tipo: nota
 estado: activo
-actualizado: 2026-08-04
+actualizado: 2026-08-05
 fuente: solicitud-del-usuario-2026-08-04
 ---
 
@@ -12,7 +12,7 @@ Ver [[00 - Portal de Capacidades]] para contexto general.
 ## Decisiones tomadas con la persona de diseño
 
 - Orden de portado elegido explícitamente: Resumen → Capacidades → Detalle de Capacidad → Administración → Configuración (la persona priorizó la pantalla "vitrina" antes que la más simple de construir).
-- Ubicación del proyecto: `VernoVentures/mock` dentro del vault `EduVaultMacCoders`, no dentro de este repo (`Edo_Obsidian_os-1`) — elegido para mantener el código junto a la documentación de producto de VernoVentures en vez de mezclarlo con los otros proyectos de `local-dev/`.
+- Ubicación actual del proyecto: `VernoVentures/mock` dentro de `EduVaultMacCoders`, fuera de este repo. La ubicación se conserva por ahora, pero la clasificación correcta es **Cencosud / Applied IA**; queda pendiente moverlo a una ruta corporativa para no mezclarlo con VERNO.
 
 ## Limitación heredada de la referencia
 
@@ -25,9 +25,10 @@ El detalle de capacidad (`/capabilities/:id`) usa un único fixture de contenido
 ## Otros pendientes técnicos
 
 - No hay remoto Git configurado para `VernoVentures/mock` — evaluar si conviene un repo propio o si debe integrarse a algún monorepo existente.
+- Confirmar si la ruta del código debe migrar fuera de `VernoVentures/`; no moverla hasta definir repositorio canónico y preservar el historial.
 - Filtros de la pantalla "Capacidades" son visuales (no filtran realmente la lista) — se dejaron así porque la referencia no expone qué capacidad pertenece a qué producto/país/unidad de negocio real; conectarlos requeriría inventar esas relaciones.
 - Botones de acción sin función real ("Nueva política", "Agregar Usuario", "Crear Rol", "Cerrar Sesión", etc.) — esperado en un mock de frontend puro sin backend.
 
 ## Actualiza también
 
-- [[../Edo/IA/Agentes/02 - Registro de proyectos|Registro de proyectos]] — fila "Portal de Capacidades" actualizada con la ruta real del repo.
+- [[../../../IA/Agentes/02 - Registro de proyectos|Registro de proyectos]] — fila "Portal de Capacidades Agénticas" actualizada con la ruta local observada.
