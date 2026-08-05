@@ -14,7 +14,7 @@ fuentes:
 | Proyecto | Estado | Repositorio | Agente propietario | Próxima acción |
 |---|---|---|---|---|
 | Dual-LLM Continuity Kit | versión 0.3.0, handoff piloto Codex→Claude cerrado | `Edo_Obsidian_os-1` | Compartido (Codex/Claude) | Completar onboarding de `Mac Air Edu`; publicar y validar v0.3.0 en los equipos |
-| Portal de Capacidades | planificación inicial | pendiente de verificar | sin asignar | Localizar repositorio, schemas y Design System |
+| Portal de Capacidades (Cencosud) | mock frontend — 5 pantallas portadas desde Figma Site, ver [[../../../Cencosud/00 - Portal de Capacidades\|Cencosud]] | `VernoVentures/mock` (dentro de `EduVaultMacCoders`, sin remoto Git) | Claude | Decidir con la persona de diseño si el detalle de capacidad usa contenido propio por capacidad o mantiene el fixture único |
 | Sistema Operativo Personal Asistido por IA | niveles 1–2 operables; nivel 3 en desarrollo | `Edo_Obsidian_os-1` | Compartido (usuario/Codex/Claude) | Probar formación y briefing manual; definir fuentes para automatización |
 
 ## Por incorporar

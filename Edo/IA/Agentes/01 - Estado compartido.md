@@ -49,7 +49,7 @@ fuentes:
 - Onboarding local de `Mac Air Edu`.
 - Instalar `ripgrep` en el PATH nativo de PowerShell en `Asus Rog` para que `validate-kit.ps1` incluya el escaneo de secretos (opcional: siempre se puede validar desde git-bash).
 - Inventario de repositorios de proyectos adicionales.
-- Repositorio, Design System y schemas reales del Portal de Capacidades.
+- Repositorio del Portal de Capacidades localizado (`VernoVentures/mock`, mock frontend sin remoto Git); Design System y schemas reales de Cencosud (backend) siguen pendientes de verificar.
 - Ubicación autorizada para crear worktrees físicos fuera del vault.
 
 ## Riesgos vigentes
