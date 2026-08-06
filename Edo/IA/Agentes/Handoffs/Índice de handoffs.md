@@ -12,6 +12,7 @@ actualizado: 2026-08-06
 
 ## Cerrados
 
+- [[2026-08-06 - codex a claude - portal-capacidades-agenticas - iterar-login-productos-navegacion]] — estado `cerrado`. Login simulado + capa de Productos + sidebar jerárquico implementados por Claude el 2026-08-06 (commit `d543e1f` en `portal-capacidades-agenticas`).
 - [[2026-08-03 - codex a claude - dual-llm-continuity-kit - validar-e-integrar-flujo]] — estado `cerrado`, aceptado por Claude el 2026-08-03.
 
 ## Convención
