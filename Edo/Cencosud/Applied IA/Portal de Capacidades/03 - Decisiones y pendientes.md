@@ -1,7 +1,7 @@
 ---
 tipo: nota
 estado: activo
-actualizado: 2026-08-05
+actualizado: 2026-08-06
 fuente: solicitud-del-usuario-2026-08-04
 ---
 
@@ -12,7 +12,7 @@ Ver [[00 - Portal de Capacidades]] para contexto general.
 ## Decisiones tomadas con la persona de diseño
 
 - Orden de portado elegido explícitamente: Resumen → Capacidades → Detalle de Capacidad → Administración → Configuración (la persona priorizó la pantalla "vitrina" antes que la más simple de construir).
-- Ubicación actual del proyecto: `VernoVentures/mock` dentro de `EduVaultMacCoders`, fuera de este repo. La ubicación se conserva por ahora, pero la clasificación correcta es **Cencosud / Applied IA**; queda pendiente moverlo a una ruta corporativa para no mezclarlo con VERNO.
+- **(2026-08-06)** Ubicación canónica única para iterar en local: `MI Local SM/portal-capacidades-agenticas`. `VernoVentures/mock` queda descartado como referencia de trabajo — solo recibirá el port final una vez validada la iteración local. No volver a usar `VernoVentures/mock` como sinónimo de este proyecto.
 
 ## Limitación heredada de la referencia
 
