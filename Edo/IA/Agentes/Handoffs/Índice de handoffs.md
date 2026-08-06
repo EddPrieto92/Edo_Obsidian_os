@@ -1,14 +1,14 @@
 ---
 tipo: indice
 estado: activo
-actualizado: 2026-08-03
+actualizado: 2026-08-06
 ---
 
 # Índice de handoffs
 
 ## Activos
 
-No hay handoffs activos.
+- [[2026-08-06 - claude a codex - portal-capacidades-agenticas - iterar-detalle-capacidad]] — estado `abierto`. Contexto de las 3 versiones del Portal de Capacidades (mock canónico ITDS, iteración local, Figma Make) y próxima acción: iterar el Detalle de Capacidad con feedback de devs pendiente de listar.
 
 ## Cerrados
 
